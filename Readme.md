@@ -1,30 +1,6 @@
 # MyApp is a trivial REST backend to use so I can have something to deploy (in order learn infra stuff)
 
-### To update dependencies based on imports in your project (from root folder):
-```bash
-go get .
-```
-
-### To run tests (from root folder):
-```bash
-go test .
-```
-
-### To run the server (from root folder):
-```bash
-go run .
-```
-
-### Or:
-```bash
-go run main.go
-```
-
-### To tidy the mod file:
-```bash
-go mod tidy
-```
-
+### Some examples to curl the endpoints:
 ```bash
 curl http://localhost:8080/records
 
